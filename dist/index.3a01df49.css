@@ -1,0 +1,41 @@
+body {
+  font-family: Gloria Hallelujah, cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+.btn-container {
+  justify-content: center;
+  display: flex;
+}
+
+.input {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.input:hover {
+  outline: none;
+}
+
+.wave {
+  border-radius: 40px 0;
+  transition: all .3s;
+}
+
+.waveC {
+  color: #c500c5;
+  background-color: #fffebf;
+  border: 2px solid #e692ff;
+  box-shadow: 2px 2px 2px 1px #f949ff66;
+}
+
+.waveC:hover {
+  border: 2px solid #fffb00;
+  box-shadow: 12px 12px 2px 1px #f949ff66;
+}
+/*# sourceMappingURL=index.3a01df49.css.map */
