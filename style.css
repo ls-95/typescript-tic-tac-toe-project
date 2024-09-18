@@ -6,12 +6,35 @@ h1 {
   text-align: center;
 }
 
+.game-container {
+  display: grid;
+  grid-template-columns: 75px 75px 75px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.box {
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px black;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
 .btn-container {
   display: flex;
   justify-content: center;
 }
 
 /*button stylings */
+.btn {
+  cursor: pointer;
+  visibility: hidden;
+}
+
 .input {
   padding: 10px 20px;
   font-size: 15px;
@@ -35,3 +58,8 @@ h1 {
   border: 2px solid rgb(255, 251, 0);
   box-shadow: 12px 12px 2px 1px rgba(249, 73, 255, 0.4);
 }
+
+/*
+  justify-content: center; => left and right
+  align-items: center; => top and down
+*/

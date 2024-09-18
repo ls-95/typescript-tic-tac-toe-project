@@ -1,8 +1,8 @@
 5899
 104C:\repos\typescript-tic-tac-toe-project\node_modules\csso\node_modules\mdn-data\css\syntaxes.schema.json133711137168294676 0
 79C:\repos\typescript-tic-tac-toe-project\node_modules\svgo\plugins\removeDesc.js133711137171309219 0
+55C:\repos\typescript-tic-tac-toe-project\dist\index.html133711327781832553 0
 93C:\repos\typescript-tic-tac-toe-project\node_modules\@parcel\utils\src\generateCertificate.js133711137167786213 0
-55C:\repos\typescript-tic-tac-toe-project\dist\index.html133711243956434834 0
 80C:\repos\typescript-tic-tac-toe-project\node_modules\svgo\plugins\removeTitle.js133711137171874660 0
 76C:\repos\typescript-tic-tac-toe-project\node_modules\browserslist\index.d.ts133711137165488476 0
 117C:\repos\typescript-tic-tac-toe-project\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\dist\csstree.min.js133711137169635015 0
@@ -14,10 +14,9 @@
 74C:\repos\typescript-tic-tac-toe-project\node_modules\js-yaml\lib\schema.js133711137168415298 0
 75C:\repos\typescript-tic-tac-toe-project\node_modules\json5\lib\stringify.js133711137165175217 0
 98C:\repos\typescript-tic-tac-toe-project\node_modules\caniuse-lite\data\features\wasm-tail-calls.js133711137181263035 0
-62C:\repos\typescript-tic-tac-toe-project\dist\index.242b51c6.js133711243956527462 0
 67C:\repos\typescript-tic-tac-toe-project\node_modules\domelementtype133711137164821389 1
 109C:\repos\typescript-tic-tac-toe-project\node_modules\css-select\node_modules\entities\lib\esm\encode.d.ts.map133711137169834513 0
-44C:\repos\typescript-tic-tac-toe-project\dist133711243956551552 1
+44C:\repos\typescript-tic-tac-toe-project\dist133711341279901332 1
 106C:\repos\typescript-tic-tac-toe-project\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Atrule.cjs133711137163786041 0
 72C:\repos\typescript-tic-tac-toe-project\node_modules\srcset\package.json133711137162360103 0
 103C:\repos\typescript-tic-tac-toe-project\node_modules\csso\node_modules\css-tree\lib\convertor\create.js133711137173487827 0
@@ -37,9 +36,9 @@
 88C:\repos\typescript-tic-tac-toe-project\node_modules\svgo\lib\svgo\css-select-adapter.js133711137168849702 0
 59C:\repos\typescript-tic-tac-toe-project\node_modules\@lezer133711137149526637 1
 90C:\repos\typescript-tic-tac-toe-project\node_modules\caniuse-lite\data\features\pointer.js133711137179384514 0
+66C:\repos\typescript-tic-tac-toe-project\dist\index.242b51c6.js.map133711339570692588 0
 110C:\repos\typescript-tic-tac-toe-project\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\css-tools.js133711137168592969 0
 79C:\repos\typescript-tic-tac-toe-project\node_modules\csso\node_modules\css-tree133711137175574571 1
-66C:\repos\typescript-tic-tac-toe-project\dist\index.242b51c6.js.map133711243956551552 0
 84C:\repos\typescript-tic-tac-toe-project\node_modules\caniuse-lite\data\regions\AS.js133711137169188744 0
 103C:\repos\typescript-tic-tac-toe-project\node_modules\htmlnano\lib\modules\removeRedundantAttributes.mjs133711137172384465 0
 111C:\repos\typescript-tic-tac-toe-project\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer133711137173000188 1
@@ -47,7 +46,7 @@
 63C:\repos\typescript-tic-tac-toe-project\node_modules\json5\dist133711137166665015 1
 109C:\repos\typescript-tic-tac-toe-project\node_modules\csso\node_modules\css-tree\lib\syntax\node\StyleSheet.js133711137175238372 0
 78C:\repos\typescript-tic-tac-toe-project\node_modules\domutils\lib\traversal.js133711137165084119 0
-48C:\repos\typescript-tic-tac-toe-project\index.ts133711243508470708 0
+48C:\repos\typescript-tic-tac-toe-project\index.ts133711339570416684 0
 85C:\repos\typescript-tic-tac-toe-project\node_modules\cosmiconfig\dist\cacheWrapper.js133711137161947686 0
 127C:\repos\typescript-tic-tac-toe-project\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeRasterImages.js133711137170644286 0
 120C:\repos\typescript-tic-tac-toe-project\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\tokenizer\index.js133711137171518507 0
@@ -68,7 +67,7 @@
 73C:\repos\typescript-tic-tac-toe-project\node_modules\import-fresh\license133711137161198142 0
 66C:\repos\typescript-tic-tac-toe-project\node_modules\color-convert133711137164293841 1
 79C:\repos\typescript-tic-tac-toe-project\node_modules\@parcel\utils\src\index.js133711137170215181 0
-50C:\repos\typescript-tic-tac-toe-project\index.html133711243870218599 0
+50C:\repos\typescript-tic-tac-toe-project\index.html133711327780371327 0
 79C:\repos\typescript-tic-tac-toe-project\node_modules\csso\lib\replace\Atrule.js133711137170589318 0
 77C:\repos\typescript-tic-tac-toe-project\node_modules\dotenv-expand\index.d.ts133711137162412691 0
 103C:\repos\typescript-tic-tac-toe-project\node_modules\posthtml\node_modules\posthtml-parser\package.json133711137163684570 0
@@ -103,7 +102,7 @@
 88C:\repos\typescript-tic-tac-toe-project\node_modules\@parcel\core\test\fixtures\main-mjs133711137174902523 1
 110C:\repos\typescript-tic-tac-toe-project\node_modules\csso\node_modules\css-tree\cjs\generator\token-before.cjs133711137172660961 0
 75C:\repos\typescript-tic-tac-toe-project\node_modules\semver\functions\eq.js133711137165824134 0
-49C:\repos\typescript-tic-tac-toe-project\style.css133711243054415855 0
+49C:\repos\typescript-tic-tac-toe-project\style.css133711341279667395 0
 113C:\repos\typescript-tic-tac-toe-project\node_modules\css-select\node_modules\entities\lib\esm\decode_codepoint.js133711137162701182 0
 92C:\repos\typescript-tic-tac-toe-project\node_modules\@swc\helpers\_\_instanceof\package.json133711137172094822 0
 77C:\repos\typescript-tic-tac-toe-project\node_modules\@parcel\reporter-cli\src133711137166216829 1
@@ -3726,7 +3725,7 @@
 85C:\repos\typescript-tic-tac-toe-project\node_modules\@parcel\core\src\public\Asset.js133711137168189982 0
 86C:\repos\typescript-tic-tac-toe-project\node_modules\cosmiconfig\dist\loaders.d.ts.map133711137168990195 0
 80C:\repos\typescript-tic-tac-toe-project\node_modules\cosmiconfig\dist\loaders.js133711137165440330 0
-91C:\repos\typescript-tic-tac-toe-project\dist\typescript-tic-tac-toe-project.3464ddca.js.map133711226488110657 0
+91C:\repos\typescript-tic-tac-toe-project\dist\typescript-tic-tac-toe-project.3464ddca.js.map133711336036903097 0
 101C:\repos\typescript-tic-tac-toe-project\node_modules\@swc\helpers\esm\_possible_constructor_return.js133711137176077615 0
 84C:\repos\typescript-tic-tac-toe-project\node_modules\cosmiconfig\dist\loaders.js.map133711137169058497 0
 85C:\repos\typescript-tic-tac-toe-project\node_modules\@swc\helpers\scripts\ast_grep.js133711137176490487 0
@@ -5895,6 +5894,7 @@
 68C:\repos\typescript-tic-tac-toe-project\node_modules\.bin\semver.ps1133711137181930294 0
 80C:\repos\typescript-tic-tac-toe-project\node_modules\.bin\update-browserslist-db133711137181935507 0
 84C:\repos\typescript-tic-tac-toe-project\node_modules\.bin\update-browserslist-db.cmd133711137181935507 0
-63C:\repos\typescript-tic-tac-toe-project\dist\index.3a01df49.css133711243872329690 0
-67C:\repos\typescript-tic-tac-toe-project\dist\index.3a01df49.css.map133711243054618312 0
-87C:\repos\typescript-tic-tac-toe-project\dist\typescript-tic-tac-toe-project.3464ddca.js133711243872350468 0
+87C:\repos\typescript-tic-tac-toe-project\dist\typescript-tic-tac-toe-project.3464ddca.js133711336036842504 0
+62C:\repos\typescript-tic-tac-toe-project\dist\index.242b51c6.js133711339570671755 0
+63C:\repos\typescript-tic-tac-toe-project\dist\index.3a01df49.css133711341279867552 0
+67C:\repos\typescript-tic-tac-toe-project\dist\index.3a01df49.css.map133711341279891327 0
