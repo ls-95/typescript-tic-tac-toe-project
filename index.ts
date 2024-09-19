@@ -1,4 +1,6 @@
 const board = document.querySelector(".game-container") as HTMLElement;
+const button = document.querySelector(".btn") as HTMLElement;
+const winMessage = document.querySelector(".winner") as HTMLElement;
 
 type Turn = "X" | "O" | "";
 
@@ -14,20 +16,54 @@ function main(): void {
 }
 
 function runGame(e: Event): void {
-  const boxId: string | null = (<HTMLElement>e.target).id;
-  console.log(boxId);
-  if (boxId === null) return;
-  const box: HTMLElement | null = document.querySelector(`#${boxId}`); // This is to obtain the id of the specific box clicked.
+  const target = e.target as HTMLElement;
+
+  // Ensure that the clicked element is a box and has a valid id
+  if (!target || !target.id.startsWith("box-")) return;
+
+  const box: HTMLElement | null = document.querySelector(`#${target.id}`); // This is to obtain the id of the specific box clicked.
   if (box === null || box.textContent !== "") return;
+
   box.textContent = turn;
   const winner: boolean = checkWinner();
+
   //The reason for the switch to work perfectly and not change if box clicked twice is because this is called after all of the box checks.
   //It won't switch the player when clicked on the box again.
   if (!winner) {
     switchPlayer();
   } else {
-    console.log("THERE IS A WINNER");
+    endGame();
   }
+}
+
+/* CODE FROM TUTORIAL THAT SHOWED ERROR
+function runGame(e: Event): void {
+  const boxId: string | null = (<HTMLElement>e.target).id;
+  if (boxId === null) return;
+  const box: HTMLElement | null = document.querySelector(`#${boxId}`);
+  if (box === null || box.textContent !== "") return;
+  box.textContent = turn;
+  const winner: boolean = checkWinner();
+
+  if (!winner) {
+    switchPlayer();
+  } else {
+    endGame();
+  }
+}
+*/
+
+function endGame(): void {
+  board.removeEventListener("click", runGame);
+  button.addEventListener("click", resetGame);
+  if (winMessage === null) return;
+  winMessage.textContent = `Winner is ${turn}!!!`;
+  winMessage.setAttribute("display", "block");
+  button.style.visibility = "visible";
+}
+
+function resetGame(): void {
+  console.log("GAME RESET");
 }
 
 function checkWinner(): boolean {

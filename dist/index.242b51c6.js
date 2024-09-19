@@ -1,4 +1,6 @@
 const board = document.querySelector(".game-container");
+const button = document.querySelector(".btn");
+const winMessage = document.querySelector(".winner");
 let turn = "X";
 function listenBoard() {
     board.addEventListener("click", runGame);
@@ -8,17 +10,43 @@ function main() {
     listenBoard();
 }
 function runGame(e) {
-    const boxId = e.target.id;
-    console.log(boxId);
-    if (boxId === null) return;
-    const box = document.querySelector(`#${boxId}`); // This is to obtain the id of the specific box clicked.
+    const target = e.target;
+    // Ensure that the clicked element is a box and has a valid id
+    if (!target || !target.id.startsWith("box-")) return;
+    const box = document.querySelector(`#${target.id}`); // This is to obtain the id of the specific box clicked.
     if (box === null || box.textContent !== "") return;
     box.textContent = turn;
     const winner = checkWinner();
     //The reason for the switch to work perfectly and not change if box clicked twice is because this is called after all of the box checks.
     //It won't switch the player when clicked on the box again.
     if (!winner) switchPlayer();
-    else console.log("THERE IS A WINNER");
+    else endGame();
+}
+/* CODE FROM TUTORIAL THAT SHOWED ERROR
+function runGame(e: Event): void {
+  const boxId: string | null = (<HTMLElement>e.target).id;
+  if (boxId === null) return;
+  const box: HTMLElement | null = document.querySelector(`#${boxId}`);
+  if (box === null || box.textContent !== "") return;
+  box.textContent = turn;
+  const winner: boolean = checkWinner();
+
+  if (!winner) {
+    switchPlayer();
+  } else {
+    endGame();
+  }
+}
+*/ function endGame() {
+    board.removeEventListener("click", runGame);
+    button.addEventListener("click", resetGame);
+    if (winMessage === null) return;
+    winMessage.textContent = `Winner is ${turn}!!!`;
+    winMessage.setAttribute("display", "block");
+    button.style.visibility = "visible";
+}
+function resetGame() {
+    console.log("GAME RESET");
 }
 function checkWinner() {
     const boxes = getBoxes();

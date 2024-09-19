@@ -6,6 +6,10 @@ h1 {
   text-align: center;
 }
 
+.winner {
+  display: hidden;
+}
+
 .game-container {
   display: grid;
   grid-template-columns: 75px 75px 75px;
