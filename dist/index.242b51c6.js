@@ -46,7 +46,18 @@ function runGame(e: Event): void {
     button.style.visibility = "visible";
 }
 function resetGame() {
-    console.log("GAME RESET");
+    turn = "X";
+    resetBoxes();
+    button.style.visibility = "hidden";
+    winMessage.textContent = "";
+    board.addEventListener("click", runGame);
+}
+function resetBoxes() {
+    for(let i = 0; i <= 8; i++){
+        const box = document.querySelector(`#box-${i}`);
+        box.textContent = "";
+    //resetting animation
+    }
 }
 function checkWinner() {
     const boxes = getBoxes();

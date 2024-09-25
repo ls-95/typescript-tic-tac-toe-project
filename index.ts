@@ -63,7 +63,19 @@ function endGame(): void {
 }
 
 function resetGame(): void {
-  console.log("GAME RESET");
+  turn = "X";
+  resetBoxes();
+  button.style.visibility = "hidden";
+  winMessage.textContent = "";
+  board.addEventListener("click", runGame);
+}
+
+function resetBoxes(): void {
+  for (let i = 0; i <= 8; i++) {
+    const box = document.querySelector(`#box-${i}`) as HTMLElement;
+    box.textContent = "";
+    //resetting animation
+  }
 }
 
 function checkWinner(): boolean {
