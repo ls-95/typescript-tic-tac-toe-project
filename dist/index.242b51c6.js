@@ -16,11 +16,16 @@ function runGame(e) {
     const box = document.querySelector(`#${target.id}`); // This is to obtain the id of the specific box clicked.
     if (box === null || box.textContent !== "") return;
     box.textContent = turn;
+    changeBoxBackground(box);
     const winner = checkWinner();
     //The reason for the switch to work perfectly and not change if box clicked twice is because this is called after all of the box checks.
     //It won't switch the player when clicked on the box again.
     if (!winner) switchPlayer();
     else endGame();
+}
+function changeBoxBackground(box) {
+    if (turn === "X") box.classList.replace("box", "x");
+    else box.classList.replace("box", "o");
 }
 /* CODE FROM TUTORIAL THAT SHOWED ERROR
 function runGame(e: Event): void {

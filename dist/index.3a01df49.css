@@ -28,6 +28,28 @@ h1 {
   box-shadow: 5px 5px 5px #000;
 }
 
+.x {
+  text-align: center;
+  cursor: pointer;
+  background-color: #f0f;
+  width: 75px;
+  height: 75px;
+  font-size: 40px;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px #000;
+}
+
+.o {
+  text-align: center;
+  cursor: pointer;
+  background-color: #ff0;
+  width: 75px;
+  height: 75px;
+  font-size: 40px;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px #000;
+}
+
 @keyframes mymove {
   0% {
     background-color: red;

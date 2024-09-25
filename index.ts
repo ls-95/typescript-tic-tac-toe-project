@@ -25,6 +25,7 @@ function runGame(e: Event): void {
   if (box === null || box.textContent !== "") return;
 
   box.textContent = turn;
+  changeBoxBackground(box);
   const winner: boolean = checkWinner();
 
   //The reason for the switch to work perfectly and not change if box clicked twice is because this is called after all of the box checks.
@@ -33,6 +34,14 @@ function runGame(e: Event): void {
     switchPlayer();
   } else {
     endGame();
+  }
+}
+
+function changeBoxBackground(box: HTMLElement): void {
+  if (turn === "X") {
+    box.classList.replace("box", "x");
+  } else {
+    box.classList.replace("box", "o");
   }
 }
 

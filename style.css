@@ -24,9 +24,30 @@ h1 {
   font-weight: bold;
   font-size: 40px;
   box-shadow: 5px 5px 5px black;
-  /* background-color: aquamarine; */
   cursor: pointer;
   animation: mymove 15s infinite alternate;
+}
+
+.x {
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px black;
+  cursor: pointer;
+  background-color: magenta;
+}
+
+.o {
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px black;
+  cursor: pointer;
+  background-color: yellow;
 }
 
 @keyframes mymove {
