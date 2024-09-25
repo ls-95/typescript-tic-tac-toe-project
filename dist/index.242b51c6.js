@@ -61,7 +61,11 @@ function resetBoxes() {
     for(let i = 0; i <= 8; i++){
         const box = document.querySelector(`#box-${i}`);
         box.textContent = "";
-    //resetting animation
+        //resetting animation
+        const boxClass = box.className;
+        box.classList.remove(boxClass);
+        box.offsetWidth; //trip and reset it - we want to reset all the animation
+        box.classList.add("box");
     }
 }
 function checkWinner() {

@@ -84,6 +84,10 @@ function resetBoxes(): void {
     const box = document.querySelector(`#box-${i}`) as HTMLElement;
     box.textContent = "";
     //resetting animation
+    const boxClass: string = box.className;
+    box.classList.remove(boxClass);
+    void box.offsetWidth; //trip and reset it - we want to reset all the animation
+    box.classList.add("box");
   }
 }
 
