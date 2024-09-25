@@ -24,8 +24,39 @@ h1 {
   font-weight: bold;
   font-size: 40px;
   box-shadow: 5px 5px 5px black;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   cursor: pointer;
+  animation: mymove 15s infinite alternate;
+}
+
+@keyframes mymove {
+  0% {
+    background-color: red;
+  }
+
+  14% {
+    background-color: orange;
+  }
+
+  28% {
+    background-color: yellow;
+  }
+
+  42% {
+    background-color: green;
+  }
+
+  66% {
+    background-color: rgb(0, 0, 182);
+  }
+
+  82% {
+    background-color: indigo;
+  }
+
+  100% {
+    background-color: violet;
+  }
 }
 
 .btn-container {
